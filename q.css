@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001e4d ;
+}
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 100px auto 0;
+    
+}
+h1{
+    color: white;
+}
+.app h1{
+    font-weight: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    
+}
+h1{
+    color: white;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+    
+}
+
+.btn{
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0 ;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 2px 3px #333 ;
+    transition: all 0.2s;
+
+}
+.btn:hover:not([disabled]){
+    color: white;
+    background-color: #222;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+.next-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+    
+}
+.next-btn button{
+    background-color: #001e4d;
+    color: white;
+    padding:10px;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    border-radius: 4px;
+   cursor: pointer;
+   font-size: 15px;
+   display: none;
+}
+.next-btn button:hover{
+    box-shadow: 2px 2px #333;
+    background-color: #045ceb;
+
+}
+.correct{
+    background-color: #28a645!important;
+}
+.wrong{
+    background-color: #dc3545!important;
+}
+.restart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+   display: none;
+
+}
+.restart-btn button{
+    background-color: #001e4d;
+    color: white;
+    padding:10px;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    border-radius: 4px;
+   cursor: pointer;
+   font-size: 15px;
+   
+}
+.restart-btn button:hover {
+    box-shadow: 2px 2px #333;
+    background-color: #045ceb;
+}
